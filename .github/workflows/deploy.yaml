@@ -7,6 +7,7 @@ on:
 
 env:
   S3_BUCKET_NAME: cicd-s3-bucket-for-cicd-ec2
+  RESOURCE_PATH: ./src/main/resources/application.yaml
   CODE_DEPLOY_APPLICATION_NAME: CODE-DEPLOY-FOR-CICD
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: CODE-DEPLOY-GROUP
 
